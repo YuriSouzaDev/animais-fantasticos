@@ -1,5 +1,4 @@
 import initScrollSuave from "./modules/scroll-suave.js";
-import initAnimacaoScroll from "./modules/scroll-animacao.js";
 import initAccordion from "./modules/accordion.js";
 import initTabNav from "./modules/tabnav.js";
 import initModal from "./modules/modal.js";
@@ -9,9 +8,9 @@ import initMenuMobile from "./modules/menu-mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
 import initiFecthAnimais from "./modules/fetch-animais.js";
 import initFecthBitcoin from "./modules/fetch-bitcoin.js";
+import initAnimacaoScroll from "./modules/scroll-animacao.js";
 
 initScrollSuave();
-initAnimacaoScroll();
 initAccordion();
 initTabNav();
 initModal();
@@ -21,3 +20,4 @@ initMenuMobile();
 initFuncionamento();
 initiFecthAnimais();
 initFecthBitcoin();
+initAnimacaoScroll();
