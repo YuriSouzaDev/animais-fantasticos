@@ -1,6 +1,11 @@
 import initScrollSuave from "./modules/scroll-suave.js";
+<<<<<<< HEAD
 import Accordion from "./modules/accordion.js";
 import TabNav from "./modules/tabnav.js";
+=======
+import initAccordion from "./modules/accordion.js";
+import Tabnav from "./modules/tabnav.js";
+>>>>>>> master
 import initModal from "./modules/modal.js";
 import initToolTip from "./modules/tooltip.js";
 import initDropdownMenu from "./modules/dropdown-menu.js";
