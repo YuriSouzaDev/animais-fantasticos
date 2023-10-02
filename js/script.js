@@ -6,7 +6,7 @@ import ToolTip from "./modules/tooltip.js";
 import initDropdownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
-import initFecthAnimais from "./modules/fetch-animais.js";
+import fetchAnimais from "./modules/fetch-animais.js";
 import FecthBitcoin from "./modules/fetch-bitcoin.js";
 import initAnimacaoScroll from "./modules/scroll-animacao.js";
 import SlideNav from "./modules/slide.js";
@@ -34,13 +34,12 @@ const slide = new SlideNav(".slide", ".slide-wrapper");
 slide.init();
 slide.addControl(".custom-controls");
 
-// fetchAnimais("./animais-api.json", ".numeros-grid");
-
 initScrollSuave();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
-initFecthAnimais();
 initAnimacaoScroll();
+
+fetchAnimais("../../animais-api.json", ".numeros-grid");
 
 FecthBitcoin("https://blockchain.info/ticker", ".btc-preco");
